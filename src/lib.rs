@@ -198,7 +198,6 @@ fn evaluate_postfix(postfix: Vec<String>) -> f64 {
 ///
 pub fn solve<S: Into<String>>(expression: S) -> Vec<f64> {
     let tokens = tokenize(expression.into());
-    println!("{}", tokens.len());
     vec![1.0]
 }
 
